@@ -1,0 +1,30 @@
+{
+  "name": "stlint-loader",
+  "version": "1.0.0",
+  "description": "stlint loader for webpack",
+  "main": "index.js",
+  "scripts": {
+    "precommit": "eslint --ext .js --ignore-path .gitignore ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syuji-higa/stlint-loader.git"
+  },
+  "keywords": [
+    "stylus",
+    "webpack",
+    "loader"
+  ],
+  "author": "Syuji Higa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/syuji-higa/stlint-loader/issues"
+  },
+  "homepage": "https://github.com/syuji-higa/stlint-loader#readme",
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "prettier": "^1.16.4"
+  }
+}
