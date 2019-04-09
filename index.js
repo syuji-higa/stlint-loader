@@ -1,5 +1,5 @@
 /**
- * vanix v1.0.0
+ * stlint-loader v1.0.1
  * (c) 2019 Syuji Higa
  * @license MIT
  */
